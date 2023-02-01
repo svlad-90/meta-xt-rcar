@@ -11,7 +11,7 @@ PACKAGE_ARCH = "${MACHINE_ARCH}"
 S = "${WORKDIR}/git"
 
 PVRKM_URL ??= "git://git@gitpct.epam.com/epmd-aepr/pvr_km_vgpu_img.git"
-PVRKM_BRANCH ??= "1.11/5516664_5.1.0"
+PVRKM_BRANCH ??= "map_opt"
 PVRKM_SRCREV ??= "${AUTOREV}"
 SRCREV = "${PVRKM_SRCREV}"
 
